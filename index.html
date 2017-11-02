@@ -3,80 +3,113 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<title>Melissa Wolowicz: About Me</title>
+
 	<meta charset="utf-8">
+	<title>Melissa Wolowicz: About Me</title>
+
+	<!-- Linking Normalize.css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
 
 	<!-- Setting the Viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<!-- Linking the Bootstrap 4 CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<!-- Linking the Bootstrap 3 CSS: Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-	<!-- Linking the additional Bootstrap 4 CSS for the sticky footer -->
-	<link href="https://getbootstrap.com/docs/4.0/examples/sticky-footer/sticky-footer.css" rel="stylesheet">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<!-- Optional Sticky Footer -->
+		<link rel="stylesheet" href="http://getbootstrap.com/docs/3.3/examples/sticky-footer/sticky-footer.css">
 
 	<!-- Linking my own CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/mystyle.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 <body>
-	<!-- Bootstrap 4 Nav Bar -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="margin-bottom: 20px; z-index: 99">
-		  <a class="navbar-brand" href="index.html">Melissa Wolowicz</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
 
-		  <!-- HELP: I don't know how to make the links appear to the right (float right) -->
-			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			    <div class="navbar-nav">
-			      <a class="nav-item nav-link active" href="index.html">About<span class="sr-only">(current)</span></a>
-			      <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-			      <a class="nav-item nav-link" href="contact.html">Contact</a>
-			    </div>
-			  </div>
-		  
-		</nav>
+<!-- Bootstrap 3Nav Bar -->
+	<nav class="navbar navbar-default">
+		<div class="container">
 
-<!-- Main Content -->
-	<div class="container-fluid" id="main-container">
-		<div class="row">
-
-			<div class="col-md-8 fade-in">
-				<section >
-					<h1>About Me</h1>
-
-					<img src="assets/images/melissawolowicz2.jpg" class="auth-image" alt="Melissa Wolowicz">
-
-					<p>A native of Venezuela, Melissa’s Latin roots and creative spirit find their way into every aspect of her life, adding distinctive flavor to passions that include cooking, photography, music and traveling.</p>
-
-					<p>A travel fanatic (she even loves airports), Melissa and husband Ray celebrated their 10 year anniversary with an epic New York trip. True to form, she found every artistic point of interest, photographed it all, and grabbed a nerdy highlight posing outside Rockefeller Center, home of fav TV show 30Rock.</p>
-
-					<p>As 30Rock heroine Liz Lemon might say, “Ain’t no party like a Melissa party!”</p>
-				</section>	
-			</div>
-
-			<div class="col-4">
-				<h3 style="padding-top: 90px">Connect With Me</h3>
-				
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html">Melissa Wolowicz</a>
 			</div>
 			
-		</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">About</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
 
+		</div>
+	</nav>
+
+<!-- Main Content -->
+	<div class="container">
+		<div class="row">
+
+			<!-- About Me Section -->
+			<div class="col-xs-12 col-md-8">
+				<div class="panel panel-default">
+
+					<div class="panel-heading">
+						<h3>About Me</h3>
+					</div>
+
+					<div class="panel-body">
+						<img class="thumbnail img-responsive pull-left margin-right profile-full" src="assets/images/melissawolowicz2.jpg" alt="Melissa Wolowicz">
+
+						<p>A native of Venezuela, Melissa’s Latin roots and creative spirit find their way into every aspect of her life, adding distinctive flavor to passions that include cooking, photography, music and traveling.</p>
+
+						<p>A travel fanatic (she even loves airports), Melissa and husband Ray celebrated their 10 year anniversary with an epic New York trip. True to form, she found every artistic point of interest, photographed it all, and grabbed a nerdy highlight posing outside Rockefeller Center, home of fav TV show 30Rock.</p>
+
+						<p>As 30Rock heroine Liz Lemon might say, “Ain’t no party like a Melissa party!”</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+			
+			<!-- Connect With Me Section -->
+			<div class="col-xs-12 col-md-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4>Connect With Me</h4>
+					</div>
+
+					<div class="panel-body">
+
+						<!-- I'm using a Sub-Row Here -->
+						<div class="row">
+							<a href="https://github.com/m-wolowicz" target="_blank">
+								<img src="assets/images/github.svg" class="col-xs-2 col-md-3" id="git" alt="GitHub">
+							</a>
+							<a href="https://www.linkedin.com/in/mwolowicz/" target="_blank">
+								<img src="assets/images/linkedin.svg" class="col-xs-2 col-md-3" id="linked" alt="LinkedIn">
+							</a>
+							<a href="https://stackoverflow.com/users/8768790/mwolowicz" target="_blank">
+								<img src="assets/images/stackoverflow.svg" class="col-xs-2 col-md-3" id="stack" alt="Stack Overflow">
+							</a>
+						</div>
+
+					</div>
+				</div>
+			</div>	
 	</div>
 
 
-
-
-<footer class="footer">
+<!-- Sticky Footer -->
+	<footer class="footer">
       <div class="container">
-        <span class="text-muted">Place sticky footer content here.</span>
+        <p class="text-muted">&copy; Copyright 2017 Melissa Wolowicz</p>
       </div>
     </footer>
-
 
 </body>
 </html>
