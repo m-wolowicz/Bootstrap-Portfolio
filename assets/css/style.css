@@ -1,0 +1,61 @@
+/*Overiding the Bootstrap CSS to better match the original portfolio styling*/
+
+/*General Global Styles*/
+	body {
+		background: url('../images/ricepaper2.png');
+	}
+
+/*Nav Bar Styles*/
+
+.navbar {
+	border-radius: 0px;
+	box-shadow: none;
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+}
+
+	/*Logo Styles*/
+		#logo {
+			background-color: #009F93;
+			color: #ffffff;
+			height: 90px;
+			font-family: 'Lobster', cursive;
+			font-size: 200%;
+			text-decoration: none;
+			letter-spacing: 1px;
+			line-height: 90px;
+			padding: 0 40px;
+			margin-left: 0px;
+		}
+
+		#logo:hover {
+			background-color: #FAA634;
+		}
+	
+	/* Navigation Links Styles*/
+		.navbar-nav {
+			margin: 25px 0;
+		}
+
+		.navbar-collapse {
+			padding: 0px;
+		}
+
+		.navbar-nav > li > a {
+			color: #999999;
+			margin: auto;
+			padding: 10px 15px;
+		}
+
+		#navLinks a {
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 112.5%;
+			border-left: 1px solid #efefef;
+		}
+
+		#navLinks a:hover {
+			color: #009F93;
+		}
+
+
