@@ -6,7 +6,6 @@
 	}
 
 /*Nav Bar Styles*/
-
 .navbar {
 	border-radius: 0px;
 	box-shadow: none;
@@ -57,5 +56,30 @@
 		#navLinks a:hover {
 			color: #009F93;
 		}
+
+/* Sections Styles */
+.panel {
+	padding: 20px;
+	border: 1px solid #dddddd;
+	border-radius: 0px;
+	box-shadow: none;
+}
+
+.panel-default > .panel-heading {
+	background-image: none;
+	background-color: #ffffff;
+	font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+    padding-bottom: 20px;
+    font-weight: 700;
+	color: #685040;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+/* About Me Page Only */
+
+
 
 
