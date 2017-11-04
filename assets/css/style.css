@@ -84,7 +84,7 @@
 /* About Me Page Only */
 
 #profilePhoto {
-	width: 200px;
+	width: 100%;
 	height: auto;
 	float: left;
 	display: inline;
@@ -120,7 +120,9 @@ p {
     background: #009F93;
     color: #fff;
     text-align: center;
-    font-weight: 300;
+    font-size: 112.5%;
+    letter-spacing: 1px;
+    font-weight: 500;
     position: relative;
     bottom: 90px;
     padding: 10px 0;
@@ -129,6 +131,23 @@ p {
 
 #projImg:hover {
 	opacity: 0.5;
+}
+
+/* Contact Page Styles*/
+#submitBtn {
+	text-shadow: none;
+	background-image: none;
+	box-shadow: none;
+	color: #ffffff;
+	background-color: #009F93;
+	border: none;
+	border-radius: 0;
+	-webkit-appearance: none;
+	padding: 10px 40px;
+}
+
+#submitBtn:hover {
+	background-color: #FAA634;
 }
 
 /* The Connect With Me Sidebar Styling */
@@ -178,3 +197,27 @@ footer {
 	letter-spacing: 1px;
 	text-align: center;
 }
+
+
+/* Begin Responsive Code - Adding Media Quesry for About Me Image Only*/
+
+/* Small Screens sm */
+	@media (min-width: 768px) {
+		#profilePhoto {
+		width: 100%;
+		height: auto;
+	}
+
+/* Medium Screens md */
+	@media (min-width: 992px) {
+		#profilePhoto {
+		width: 200px;
+		height: auto;
+	}
+
+/* Large Screens lg */
+	@media (min-width: 768px) {
+		#profilePhoto {
+		width: 200px;
+		height: auto;
+	}
