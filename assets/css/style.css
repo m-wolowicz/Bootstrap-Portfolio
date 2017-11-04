@@ -4,7 +4,10 @@
 	body {
 		background: url('../images/ricepaper2.png');
 	}
-
+	
+	#marginFix {
+		margin-bottom: 80px;
+	}
 /*Nav Bar Styles*/
 .navbar {
 	border-radius: 0px;
@@ -80,6 +83,110 @@
 
 /* About Me Page Only */
 
+#profilePhoto {
+	width: 200px;
+	height: auto;
+	float: left;
+	display: inline;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	border: 5px solid #FAA634;
+	animation-name: borderChange;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+	/* Adding a Cool CSS3 Animation for Bonus Points*/
+		@keyframes borderChange {
+			from {border-color: #FAA634;}
+			to {border-color: #009F93;}
+		}
+
+#profilePhoto:hover {
+	opacity: 0.5;
+}
+
+/* Text Styling */
+p {
+	font-size: 112.5%;
+	line-height: 212.5%;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+/*STILL NEED TO WORK ON PORTFOLIO PAGE*/
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The Connect With Me Sidebar Styling */
+	/* Hovers for social icons*/
+
+	#git, #linked, #stack {
+		max-width: 62px;
+		max-height: 62px;
+		margin: 0px;
+		padding: 0px;
+		background-color: #FAA634;
+	}
+
+	#git:hover {
+		background-color: #009F93;
+	}
+
+	#linked:hover {
+		background-color: #009F93;
+	}
+
+	#stack:hover {
+		background-color: #009F93;
+	}
+
+/* Footer Styling - Using Gradients suggested by Frank for Bonus Points!*/
+footer {
+	background: #dddddd;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #BCBEC0, #F1F2F2);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #BCBEC0, #F1F2F2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding: 5px 0;
+	clear: both;
+	border-top: 5px solid #685040;
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 98;
+    overflow: auto;
+}	
+
+#fooText {
+	color: #685040;
+	padding-top: 6px;
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-align: center;
+}

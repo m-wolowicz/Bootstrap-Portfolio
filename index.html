@@ -51,7 +51,7 @@
 	</nav>
 
 <!-- Main Content -->
-	<div class="container">
+	<div class="container" id="marginFix">
 		<div class="row">
 
 			<!-- About Me Section -->
@@ -65,11 +65,8 @@
 					<div class="panel-body">
 						<div class="pull-left">
 
-							<img class="img-responsive" src="assets/images/melissawolowicz2.jpg" alt="Melissa Wolowicz">
-							
-						</div>
+							<img class="img-responsive" id="profilePhoto" src="assets/images/melissawolowicz2.jpg" alt="Melissa Wolowicz">
 						
-						<div class="pull-right">
 							<p>A native of Venezuela, Melissa’s Latin roots and creative spirit find their way into every aspect of her life, adding distinctive flavor to passions that include cooking, photography, music and traveling.</p>
 
 							<p>A travel fanatic (she even loves airports), Melissa and husband Ray celebrated their 10 year anniversary with an epic New York trip. True to form, she found every artistic point of interest, photographed it all, and grabbed a nerdy highlight posing outside Rockefeller Center, home of fav TV show 30Rock.</p>
@@ -88,20 +85,13 @@
 					</div>
 
 					<div class="panel-body">
+						<div>
+							<a href="https://github.com/m-wolowicz" target="_blank"><img src="assets/images/github.svg" id="git" alt="GitHub"></a>
 
-						<!-- I'm using a Sub-Row Here -->
-						<div class="row">
-							<a href="https://github.com/m-wolowicz" target="_blank">
-								<img src="assets/images/github.svg" class="col-xs-2 col-md-3" id="git" alt="GitHub">
-							</a>
-							<a href="https://www.linkedin.com/in/mwolowicz/" target="_blank">
-								<img src="assets/images/linkedin.svg" class="col-xs-2 col-md-3" id="linked" alt="LinkedIn">
-							</a>
-							<a href="https://stackoverflow.com/users/8768790/mwolowicz" target="_blank">
-								<img src="assets/images/stackoverflow.svg" class="col-xs-2 col-md-3" id="stack" alt="Stack Overflow">
-							</a>
+							<a href="https://www.linkedin.com/in/mwolowicz/" target="_blank"><img src="assets/images/linkedin.svg" id="linked" alt="LinkedIn"></a>
+
+							<a href="https://stackoverflow.com/users/8768790/mwolowicz" target="_blank"><img src="assets/images/stackoverflow.svg" id="stack" alt="Stack Overflow"></a>							
 						</div>
-
 					</div>
 				</div>
 			</div>	
@@ -111,10 +101,8 @@
 
 <!-- Sticky Footer -->
 	<footer class="footer">
-      <div class="container">
-        <p class="text-muted">&copy; Copyright 2017 Melissa Wolowicz</p>
-      </div>
-    </footer>
+		<p id="fooText">&copy; Copyright 2017 Melissa Wolowicz</p>
+	</footer>
 
 </body>
 </html>
