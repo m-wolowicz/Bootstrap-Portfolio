@@ -115,36 +115,21 @@ p {
 	color: #777777;
 }
 
-/*STILL NEED TO WORK ON PORTFOLIO PAGE*/
+/*Portfolio Page*/
+.caption h3 {
+    background: #009F93;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    position: relative;
+    bottom: 90px;
+    padding: 10px 0;
+    margin-bottom: -36px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#projImg:hover {
+	opacity: 0.5;
+}
 
 /* The Connect With Me Sidebar Styling */
 	/* Hovers for social icons*/
